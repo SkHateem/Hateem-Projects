@@ -1,0 +1,23 @@
+package Package1;
+
+import java.util.Random;
+
+public class Demo
+{
+	public static void main(String[] args)
+	{
+		System.out.println("My name is Hateem");
+		System.out.println("generation of random numbers");
+		
+		Random random = new Random();
+		int number = random.nextInt(1000);
+		System.out.println(number);
+		if(number < 1000)
+		{
+			number +=1000;
+			
+		}
+		System.out.println("otp is "+number);
+	}
+
+}
